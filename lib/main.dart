@@ -6,6 +6,14 @@ void main() {
   runApp(const MyApp());
 }
 
+String longOperationMethod(){
+  var counting=0;
+  for(var i=1;i<=1000000000;i++){
+    counting=i;
+  }
+  return '$counting! times I print the value!';
+}
+
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
