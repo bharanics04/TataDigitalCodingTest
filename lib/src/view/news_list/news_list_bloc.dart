@@ -3,7 +3,7 @@ import 'package:tatadigitalcodingtest/src/model/get_news_detail_model.dart';
 import 'package:tatadigitalcodingtest/src/model/get_news_list_wrapper.dart';
 import 'package:tatadigitalcodingtest/src/model/response_model.dart';
 import 'package:tatadigitalcodingtest/src/repository/news_repository.dart';
-import 'package:tatadigitalcodingtest/src/view/news_list_view.dart';
+import 'package:tatadigitalcodingtest/src/view/news_list/news_list_view.dart';
 
 class NewsListBloc{
   final NewsRepository _mNewsRepository=NewsRepository();

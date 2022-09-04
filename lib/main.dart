@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tatadigitalcodingtest/src/view/news_list_view.dart';
+import 'package:tatadigitalcodingtest/src/view/news_list/news_list_view.dart';
+import 'src/view/chips/long_string_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const NewsListView(),
+      home: const LongStringWidget(),
     );
   }
 }

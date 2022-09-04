@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tatadigitalcodingtest/src/constants/base_constants.dart';
 import 'package:tatadigitalcodingtest/src/model/get_news_detail_model.dart';
-import 'package:tatadigitalcodingtest/src/view/news_list_bloc.dart';
+import 'package:tatadigitalcodingtest/src/view/news_list/news_list_bloc.dart';
 
 class NewsListView extends StatefulWidget {
   const NewsListView({Key? key}) : super(key: key);
